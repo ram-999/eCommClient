@@ -1,0 +1,1256 @@
+.loginForm{
+    padding: 10px;
+    text-align: center;
+}
+
+.headLineIcon{
+    position: absolute;
+    right: 16px;
+    display: inline-flex;
+    width: 32px;
+    height: 32px;
+    color: white;
+    padding-top: 7px;
+    padding-left: 7px;
+}
+.headLineIcon:hover{
+    background-color: green;
+    border-radius: 15px;
+    margin-top: 5px;
+}.headLineOptions{
+    width: 100%; 
+    color: white;
+    font-size: 16px;
+
+    text-align: right;
+    margin-bottom: 10px;
+}
+div[class*=optionsDivision]{
+    background-color: white;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 8px;
+    display: inline-flex;
+
+}
+.options-icon-at-home{
+    //width: 42px;
+
+    width: 15px;
+    height: 17px;
+    margin: 13px;
+}
+.options-icon-at-home-right{
+    position: absolute;
+    right: 31px; 
+    width: 18px;
+    height: 18px;
+
+}
+.optionsHeadImage{
+    display: inline;
+}
+.optionsHeadText{
+    padding-top: 13px;
+    color: black;
+    text-align: left;
+}
+.optionsHeadDesc{
+    color: grey;
+    font-size: small;
+    /* display: table-footer-group; */
+    clear: left;
+    padding: 35px;
+    position: absolute;
+    left: 45px;
+}
+.optionsHeadArrow{
+    width: 15px;
+    /* height: 100%; */
+    /* text-align: center; */
+    padding: -1px;
+    padding-top: 9px;
+    /* padding-left: 23px; */
+    right: 14px;
+    position: absolute;
+}
+
+
+.paymentOptions{
+    position: fixed;
+    padding: 5px;
+    width: 58%;
+    right: 12px;
+    /* height: 100%; */
+    /* color: white; */
+    background-color: darkgrey;
+    border-radius: 9px;
+}
+.outerMonthFilter{
+    padding: 13px;
+    background-color: gainsboro;
+}
+.monthDisplay{
+    width: 77px;
+    height: 47px;
+    border: 1px solid grey;
+    padding: 14px;
+    margin: 5px;
+    display: inline-flex;
+    text-align: center;
+    background-color: white;
+    padding-left: 26px;
+    border-radius: 13px;    
+}
+.monthDisplay:hover{
+    background-color: black;
+    color: white;
+}
+.maintainanceOptions{
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    /* border: 1px solid; */
+    position: relative;
+    left: 87%;
+
+}
+.maintainanceOptions:hover{
+    border: 1px solid lightblue;
+    background-color: lightblue;
+}
+.setter{
+    text-align: center;
+}
+.settingsHome{
+    background-color: #d6d6d6;
+    width: 100%;
+    height: 92vh;
+    padding: 10px;
+}
+.mainHeaderImg{
+    /* background-image: url(../images/pg2.jpg); */
+    /* background-repeat-x: no-repeat; */
+    background-repeat-y: no-repeat;
+    background-position: center;
+    height: 159px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    width: 100%;
+    z-index: 1000;
+    padding-top: 40px;
+    padding-left: 30px;
+    background-color: black;
+    color: white;
+}
+.TitleOftheApp{
+    font-size: larger;
+    font-weight: bold;
+}
+.SubTitleOftheApp{
+    font-size: smaller;
+    font-weight: bold;
+}
+.globalOptions{
+    position: fixed;
+    right: 42px;
+    top: 85px;
+    color: white;
+    padding: 10px;
+}
+.globalOption{
+    /* width: 35px; */
+    height: 39px;
+    padding-top: 10px;
+    /* padding-left: 7px; */
+    /* margin: 10px; */
+    /* display: inline-flex; */
+    font-size: 17px;
+}
+.globalOption:hover{
+   
+}
+.texthome{
+    position: relative;
+    top: 93px;
+}
+.mainHome{
+    /* background-color: #d6d6d6; */
+    /* width: 100%; */
+    /* height: 100%; */
+    padding-left: 10%;
+    padding-right: 10%;
+}
+div[class*=division]{
+    background-color: white;
+    width: 100%;
+    border-radius: 7px;
+    margin-top: 8px;
+    display: inline-flex;
+
+}
+.icon-at-home{
+    width: 57px;
+    height: 57px;
+    padding: 13px;
+}
+.icon-at-home-right{
+    position: absolute;
+    right: 31px; 
+    width: 18px;
+    height: 18px;
+
+}
+.headImage{
+    display: inline;
+}
+.headText{
+    font-weight: bold;
+    padding-top: 13px;
+}
+.headDesc{
+    /*
+    color: grey;
+    font-size: small;
+     display: table-footer-group;  
+    clear: left;
+    padding: 31px; 
+    padding-left: 22px;
+    padding-top: 32px;
+    position: absolute; 
+     left: 45px;*/
+}
+.itemStyle{
+    width: 100px;
+    height: 100px;
+}
+.headArrow{
+    width: 10px;
+    height: 100%;
+    text-align: center;
+    padding: 19px;
+}
+.footer{
+    text-align: center;
+    padding-left: -22px;
+    padding-top: 24px;
+    color: green;
+    font-size: small;
+}
+
+
+.half , .quarter{
+    top: 7px;
+}
+
+.publicVis{
+    padding: 11px;
+    width: 93%;
+    height: 79vh;
+    left: 13px;
+    position: absolute;
+    top: 93%;
+    border: 1px solid gainsboro;
+}
+.roomEntry{
+    width: 74px;
+    height: 26px;
+    border: 1px solid #004b71;
+    padding: 6px;
+    margin: 2px;
+    text-align: center;
+}
+.roomEntry:hover{
+    background-color: #004b71;
+    color: white;
+}
+.SelectedRoom{
+    position: fixed;
+    top: 101px;
+    right: 6px;
+    width: 107px;
+    /* width: 100%; */
+    /* height: 55px; */
+    border: 1px solid ghostwhite;
+    background-color: black;
+    color: white;
+    padding: 4px;
+    display: none;
+}
+.ConfirmRoom{
+    position: fixed; 
+    left: 0px;
+    width: 100%;
+    height: 49px;
+    border: 1px solid ghostwhite;
+    background-color: green;
+    color: white;
+    font-weight: lighter;
+    padding: 13px;
+    display: none;
+    bottom: 53px;
+    text-align: center;
+}
+.home{
+    padding: 0px; 
+    margin: -2px;
+}
+.rootApp{
+    padding: 0px;
+    font-weight: lighter;
+}
+.mainView{
+    position: absolute;
+    top: 8%;
+    width : 100%;
+}
+.HD {
+
+    height: 68px;
+    padding-top: 25px;
+    padding-left: 117px;
+
+    color: white;
+    height: 67px;
+}
+.HD:hover {
+    background-color: lightblue;
+}
+.HD .a{
+    text-decoration: none;
+}
+a:focus, a:hover{
+    text-decoration: none;
+}
+.HomeDrivingHeader{
+
+}
+#headerIcon{
+    text-align: right; 
+
+}
+.myAppNavigation{
+    width: 100%;
+    font-weight: bolder;
+}
+.full {
+    width: 137px;
+    height: 50px;
+}
+.homeImage{ 
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+
+} 
+.nav .nav-tabs{
+    text-align: center;
+}
+.nav-tabs>li>a {
+    margin-right: 0px;
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    margin-left: 29px;
+    text-align: center;
+}
+#bodyRegion{
+    width: 100%;
+    padding: 10px;
+    background-color: white;
+}
+.hostelAdd,.tanantAdd,.tanantPayment{
+    padding: 5px; 
+}
+.hostelView{
+    padding: 0px;  
+}
+.underCons{
+    width: 100%;
+}
+.hostelAddFooter,.tanantAddFooter {
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    height: 8vh;
+    border: 0; 
+    background-color: #004b71;
+    /* height: 90vh; */
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+    color: white;
+    font-weight: lighter;
+}
+.hostelAddFooter:hover{
+    background-color: green; 
+}
+.addRoomsIcon,.addBillsIcon{
+    position: fixed;
+    border: 1px solid lightcyan;
+    /* text-align: right; */
+    padding: 16px 18px 18px 16px;
+    right: 12px;
+
+}
+.addRoomsIcon:hover,.addBillsIcon:hover {
+    background-color: #004b71;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.16),0 2px 10px 0 rgba(0,0,0,0.12)!important;
+}
+.maintainance{
+    padding: 3px;
+}
+.NoNotificationMessage{
+    color: grey;
+    padding: 16px;
+}
+
+.hostels{
+    width: 100%;
+    height: 100%;
+}
+.hostelFooter,.tanantFooter{
+    width: 100%;
+    direction: rtl;
+    margin: -16px;
+}
+.addHostelIcon,.addTanantIcon{
+    position: fixed;
+    bottom: 3%;
+    border: 1px solid lightcyan;
+
+    text-align: right;
+    padding: 16px 18px 18px 16px;
+    font-size: 16px;
+    height: 7rem;
+
+}
+.addHostelIcon:hover,.addTanantIcon:hover{
+    background-color: green;
+}
+.hostelsList{
+    width: 100%; 
+}
+.hostelsInfo{
+    padding: 5px;
+}
+.modal{
+    position: fixed;
+    top: 19%;
+}
+.hostelInfoOptions,.billInfoOptions{
+    vertical-align: top;
+    position: absolute;
+    right: 1rem;
+}
+
+#roomInfo,#ItemInfo{
+    width: 100%; 
+    padding: 3px; 
+    font-size: 18px;
+    line-height: 1.3333333;
+    border-radius: 6px;
+    display: inline-flex;
+}
+
+#roomInfo:hover,#ItemInfo:hover{ 
+    background-color: lightblue;
+}
+.roomNum,.ItemNum,.paymentDate{
+    /* background-image: url(../images/email.svg); */
+    background-color: cadetblue;
+    /* display: inline-block; */
+    border: 1px solid gray; 
+    width: 4rem;
+    height: 4rem;
+    padding: 6px;
+    text-align: center;
+    color: white;
+    margin: 5px;
+}
+.roomType,.ItemType,.paymentAmount{
+    display: inline-flex;
+    padding-left: 6px;
+    padding-top: 4px;
+    font-weight: bolder;
+    margin-bottom: 0px;
+}
+.tv{
+    display: inline-flex;
+    padding: 6px; 
+    clear : left; 
+}
+h2,p{
+    padding: 5px;
+}
+
+
+#hostelInfo,#tanantInfo{
+    width: 100%;
+    padding: 5px;
+    padding: -11px 16px;
+    font-size: 18px;
+    /* line-height: 1.3333333; */
+    border-radius: 6px;
+    /* display: inline-flex; */
+}
+
+#hostelInfo:hover,#tanantInfo:hover{
+
+    background-color: lightblue;
+}
+.hostelId,.tanantId{
+    /* background-image: url(../images/email.svg); */
+    background-color: cadetblue;
+    /* display: inline-block; */
+    border: 1px solid gray;
+    border-radius: 50%;
+    width: 4rem;
+    height: 4rem;
+    padding: 7px;
+    text-align: center;
+    color: white;
+    /* margin: 0px; */
+}
+
+.tanantIdTd{
+    width: 4rem; 
+}
+
+.roomAvail{ 
+    background-color: lightblue; 
+    width: 8rem; 
+    padding: 3px;
+    text-align: center; 
+    position: absolute;
+    right: 1rem;
+}
+.tanantId{
+    border-radius: 0;
+}
+.hostelName,.tanantName{
+    padding-left: 1rem;
+    color: black;
+    font-weight: 400;
+    font-size: 16px;
+    text-align: left;
+
+}
+
+.roomInfoBar{
+    width: 49%;
+    /* height: 59px; */
+    /* border: 1px solid green; */
+    /* display: inline-flex; */
+    /* padding: 31px; */
+    margin-top: 5px;
+    margin-bottom: 7px;
+    border: 1px solid gray;
+    display: inline-table;
+}
+
+.roomInfoBarName{
+    /* width: 80%; */
+    /* height: 20px; */
+    /* background-color: grey; */
+    /* border: 1px solid green; */
+    /* padding: 8px; */
+    text-align: center;
+}
+.roomInfoBarTotalCount{
+    width: 20%;
+    /* height: 20px; */
+    border: 1px solid gray;
+    padding: 8px;
+
+}
+.roomInfoBarProgressBar{
+    width: 100%;
+    /* height: 20px; */
+    /* border: 1px solid green; */
+    /*border: 1px solid gray;*/
+    padding: 6px;
+    text-align: center;
+
+}
+.roomInfoBarProgressBar:hover{
+    /*.roomInfoBarTotalCount:hover,.roomInfoBarName:hover,*/
+    background-color: green;
+
+}
+.hostelsShowInfo{
+
+    overflow-x: 10px;
+
+}
+
+img.avatar {
+    width: 40%;
+    border-radius: 50%;
+}
+.dangerSet{
+    width: 79px;
+    height: 20px;
+    padding: 0px;
+}
+.hostelDesc,.roomDesc,.tanantDesc,.ItemDesc,.paymentRemarks{
+    display: inline-flex; 
+    font-size: small; 
+    padding-left: 6px; 
+    color: gray;
+}
+
+input[type=radio]{
+    opacity: 1;
+    position: relative;
+}
+
+div[id*=inlineActions] {
+    text-align: right; 
+    bottom: 0%;
+    padding-right: 7px;
+    display: none;
+    margin-left: 4px;
+}
+#inlineActionName{
+    /* text-align: left; */
+    position: absolute;
+    /* left: 1rem; */
+    padding: 6px;
+    border: 1px solid gray;
+    width: 176px;
+    border-radius: 21px;
+    text-align: center;
+}
+
+.headerLine {
+    width: 100%;
+    background-color: #004b71;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    margin-top: -3px;
+}
+
+.OptionHeader{
+    width: 100%;
+    background-color: black;
+    color: white;
+    font-size: 16px;
+    padding: 10px;
+    text-align: right;
+    margin-bottom: 10px;
+}
+.topcoat-navigation-bar{
+    position: fixed;
+    width: 100%;
+    /* overflow: overlay; */
+    z-index: 1000;
+}
+.emptyDIV_hostelAddFooter, .emptyDIV_tanantAddFooter{
+    width: 100%;
+    height: 8vh;
+}
+
+.homeIcon{
+    width: 97%;
+    height: 40vh;
+    margin: 5px;
+
+}
+
+.form-control{
+    font-size: 18px;
+    height: 47px;
+    /*padding: 6px 21px;*/
+    /*border-radius: 25px;*/
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    /*    border-left: 0px;
+        border-right: 0px;*/
+    border: 0px;
+    border-top: 0px;
+    border-left: 0px;
+    border-radius: 0px;
+    border-right: 0px;
+    border-bottom: 1px solid;
+    -webkit-box-shadow: inset 0 0px 0px rgba(0,0,0,0);
+    box-shadow: inset 0 0px 0px rgba(0,0,0,0); 
+} 
+
+.nav-tabs>li.active>a, .nav-tabs>li.active>a:focus, .nav-tabs>li.active>a:hover{
+    border : 0px;
+    border-bottom: 1px solid green; 
+    color: green;
+    font-weight: bolder;
+}
+
+.deleteButton{
+    width: 32px;
+    height: 32px;
+}
+
+.homeIcons{
+    width: 40px;
+    height: 40px;
+}
+
+.linesep{
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid lightblue;
+}
+.proper-margin{
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.nav-tabs>li>a{
+    border : 0px;
+}
+
+.nav-tabs{
+    border : 0px;
+}
+
+.Indian_Rupee{
+    width : 10px;
+    height:  10px;
+}
+
+.OptionsShow{
+    text-align: right;
+    padding-right: 5px;
+    position: absolute;
+    right : 1px;
+    right: 12px;
+    font-size: 13px;
+    color: red;
+}
+.homeLinkBackgound1{
+
+    background-color: #111B58;
+
+}
+.homeLinkBackgound2{
+
+    background-color: #2E3D98;
+
+
+}
+.homeLinkBackgound3{
+
+    background-color: #4F3690;
+
+
+}
+.homeLinkBackgound4{
+
+    background-color: #09BCEF;
+
+
+}
+.homeLinkBackgound5{
+
+    background-color: #00B8BA;
+
+
+}
+.homeLinkBackgound6{
+
+    background-color: #7E929F;
+
+
+}
+
+.TotalPayementBar{
+    position: fixed;
+    bottom: 1px;
+    width: 100%;
+    height: 42px;
+    background-color: #004b71;
+    padding: 11px;
+    display: inline-flex;
+    color: white;
+}
+.TotalPayementAmount{
+    text-align: right;
+    position: absolute;
+    right: 17px;
+}
+
+.homeHeaderShow{
+    background-color: #004b71;
+    color: white; 
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+    padding-left: 9px;
+    height: 57px;
+}
+.headerTitle{
+    color: white;
+    font-size: 16px;
+    font-weight: 400;
+}
+.homeHeaderIcon{
+    position: absolute;
+    right: 1rem;
+    display: inline-flex;
+    margin-top: 5px;
+    margin-right: -4px;
+
+    padding: 13px;
+}
+.homeHeaderIcon:hover{
+    border: 1px solid;
+
+    border-radius: 50%; 
+}
+.NormalPadd{
+    padding: 15px;  
+
+}
+.NormalPaddingHere{
+    padding: 15px;  
+    display: inline-flex; 
+}
+.tanantData{
+
+}
+
+.appBody{
+    background: white;
+    padding: 10 10 10 10;
+} 
+.navbar-default .navbar-toggle{
+    border-color: transparent;
+    padding: 4px 9px;
+}
+.back-button {
+    top: 5px;
+    position: absolute;
+}
+
+.tanantProfilePic{
+    text-align: center;
+    display: inline-flex;
+    margin-right: 20px;
+}
+
+.topcoat-navigation-bar__title{
+    font-size:  18px;
+}
+.scroller {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+    position: absolute;
+    top: 168px;
+    bottom: 0px;
+    left: 0px;
+    right: 0px;
+}
+
+.topcoat-icon--back {
+    background: url("../images/back1.svg") no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    width: 3rem;
+    height: 3rem;
+}
+
+.homeHeaderShow2{
+    padding: 18px;
+}
+#headerName{
+    padding-left: 5px;
+}
+
+.count {
+    color: #5DC1FF;
+    position: absolute;
+    right: 50px;
+    top: 26px;
+    font-weight: bold;
+}
+
+
+.search-bar {
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+.search-bar > input {
+    width: 100%;
+    /* padding: 23px 5px 24px 31px; */
+    padding-left: 3rem;
+    padding-top: 24px;
+    padding-bottom: 23px;
+    margin-bottom: 8px;
+    border: 1px solid greenyellow;
+}
+.inputfile + label {
+    font-size: 1.25em;
+    font-weight: 700;
+    color: white;
+    background-color: black;
+    display: inline-block;
+}
+
+.inputfile:focus + label,
+.inputfile + label:hover {
+    background-color: red;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    -webkit-touch-callout: none;
+    -webkit-tap-highlight-color: rgb(0, 0, 0);
+}
+
+.details {
+    margin: auto;
+}
+
+.details>img {
+    float:left;
+    margin:10px;
+    width: 80px;
+    height: 80px;
+}
+
+.details h1 {
+    padding: 12px 0px 4px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.2rem;
+}
+
+.details h2 {
+    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 0px 0px;
+    font-size: 1.1rem;
+    font-weight: normal;
+    color: #888;
+}
+
+.list {
+    list-style-type: none;
+}
+
+.list > li {
+    position: relative;
+    clear: both;
+    padding: 0px;
+    margin: 0px;
+}
+
+.list > li:nth-of-type(1) {
+    border-top: none;
+}
+
+.list > li > a {
+    margin: 0px;
+    display: block;
+    height: 57px;
+    padding: 4px;
+}
+
+
+.list > li > a > p:nth-of-type(1) {
+    margin: 8px 0px 0px 0px;
+    font-weight: bold;
+}
+
+.list > li p:nth-of-type(2) {
+    margin: 0px;
+    color: #777;
+}
+
+.list > li img {
+    width: 57px;
+    height: 57px;
+    float: left;
+    margin-right: 8px;
+}
+
+.list li:active {
+    background-color: #d6d6d6;
+}
+
+.actions > li > a {
+    padding-left: 12px;
+}
+
+.action-icon {
+    position: absolute !important;
+    top: 18px;
+    right: 20px !important;
+    width: 28px !important;
+    height: 28px;
+}
+
+.actions li p:nth-of-type(1) {
+    color:  #5DC1FF;
+    font-size: 0.9em;
+    font-weight: lighter;
+}
+
+.actions li p:nth-of-type(2) {
+    color: inherit;
+}
+
+ul {
+    clear:both;
+    border-top: none !important;
+}
+
+.icon-call {
+    background: transparent url(../images/call.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-sms {
+    background: transparent url(../images/chat.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-mail {
+    background: transparent url(../images/email.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-manager {
+    background: transparent url(../images/next.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.icon-reports {
+    background: transparent url(../images/next.svg);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+}
+
+.chevron {
+    background: transparent url(../images/next_blue.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    right: 12px;
+    top: 22px;
+    height: 50px;
+    width: 28px;
+}
+
+.slide-left.ng-enter,
+.slide-left.ng-leave,
+.slide-right.ng-enter,
+.slide-right.ng-leave {
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    background: inherit;
+    -ms-transition: .25s ease-in-out;
+    -webkit-transition: .25s ease-in-out;
+    transition:  .25s ease-in-out;
+}
+
+
+.slide-left.ng-enter {
+    z-index: 101;
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+.slide-left.ng-enter.ng-enter-active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-left.ng-leave {
+    z-index: 100;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-left.ng-leave.ng-leave-active {
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.slide-right.ng-enter {
+    z-index: 100;
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+}
+
+.slide-right.ng-enter.ng-enter-active {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-right.ng-leave {
+    z-index: 101;
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+}
+
+.slide-right.ng-leave.ng-leave-active {
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+}
+
+
+
+
+
+
+
+.progressShow{
+    //text-align: -webkit-center;
+    padding-left: 73px;
+
+}
+.item{
+    width: 50px;
+    height: 50px;
+    background-color: darkgray;
+    /* border: 1px solid yellow; */
+    border-radius: 50%;
+    padding: 4%;
+    /* color: white; */
+    /* font-size: 28px; */
+    text-align:  center;
+}
+.item:hover,.item:active{
+    font-weight:bold;
+    background-color:  #111B58;
+    width: 70px;
+    height: 70px;
+    padding: 7%;
+    margin-left: -9px;
+    color : #FFFFFF;
+    z-index: 2;
+}
+.line{
+    width: 3px;
+    height: 52px;
+    background-color: grey;
+    /* border: 1px solid yellow; */
+    margin: 3px;
+    margin-left: 24px;
+}
+.step{
+    width: 100%;  
+    //border: 1px solid black;
+}
+.usercard{
+    width: 100px;
+    height: 30px; 
+    border: 1px solid black; 
+    padding: 10px; 
+    display : none;	
+
+} 
+.nodeArea{
+    display: flex;
+    position:  relative;
+}
+div[class*=nodeStatus]{
+    display : none;
+    width: 63%;
+    height: 85px;
+    /* border: 2px solid gainsboro; */
+    position: absolute;
+    margin-left: 111px;
+    top: -7px;
+    padding: 10px;
+    /* box-sizing:  inherit; */ 
+    z-index: 1;
+    background-color:  darkgray;
+}
+.arrow{
+    position:  relative;
+    top: 15px;
+    left: -66px;
+    width: 68px;
+    height: 34px;
+    /* border:  1px solid antiquewhite; */
+    background-color:  darkgray;
+    /* z-index: -1; */
+}
+.details{
+     position:  absolute;
+     right: 0px;
+     top: 0px;
+     border: 1px solid grey;
+         width: 100%;
+    height: 200px;
+    z-index: 6; 
+}
+.details:hover{
+    border-radius:50%;
+}
+
+
+.category-list{
+   padding: 12px; 
+}
+.item-list{
+   padding: 12px; 
+}
+.item-short{
+    width: 100px;
+    height: 200px;
+    padding: 10px;
+    display: inline-block;
+}
+.item-name{
+    font-weight: bold; 
+        font-size: 17px;
+}
+.item-price{
+    /* font-style: oblique; */
+    font-size: 19px;
+    font-weight: bold;
+}
+.item-add-to-cart{
+   width: 100%;
+   font-size: 13px;
+}
+
+.home-search{
+    /* padding: 0px; */
+    position: fixed;
+    top: 39px;
+    left: 31rem;
+}
+
+.search-input{
+    width: 34rem;
+    height: 5rem;
+    border-radius: 11px;
+    padding: 15px;
+    color: black;
+}
+.error-msg{
+    padding: 20px;
+    font-size: 18px;
+    color: red;
+}

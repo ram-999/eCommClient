@@ -1,0 +1,27 @@
+
+
+<div class="texthome" ><!-- ng-if="loginSuccess" --> 
+    
+    <div class="mainHome">  
+        
+        <div class="error-msg">{{error}}</div>
+        <span class="category-list"  ng-repeat="category in allitems">
+            <h1>{{category.Category}} </h1>
+            <span  class="item-list" ng-repeat="item in category.items | filter: search"> 
+                <div class="item-short">
+                    <div class="item-name"> {{item.name}}</div>
+                    <div class="item-img"> <img  class="itemStyle" src="{{item.imageLoc}}" /> </div>
+                    <div class="item-price"> $ {{item.price}} </div>
+                    <div class="item-add-to-cart">
+                        <button class="btn-success" ng-click="addTocart(item)">Add to cart </button>
+                    </div>
+                </div> 
+            </span> 
+        </span> 
+
+        
+
+    </div>
+    
+
+</div>

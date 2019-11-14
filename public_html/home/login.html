@@ -1,0 +1,28 @@
+
+<div class="loginForm">
+    <form name="myForm"> 
+
+        <img src="images/img_avatar2.png" alt="Avatar">
+        <br>
+        <br>
+        <div style="color: red;text-align: center"> {{message}}</div>
+        <div class="form-group">
+
+            <input class="form-control" required ng-model="userName" placeholder="UserName"> </input> 
+        </div>
+
+        <div class="form-group">
+
+            <input  type="password" class="form-control" required ng-model="paswd" placeholder="Password"> </input> 
+        </div>
+       
+         <button type="button" class="btn btn-warning proper-margin" ng-click="login()">LOGIN</button>
+            <button type="button" class="btn btn-danger  proper-margin">Cancel</button>
+            <span class="psw">Forgot <a href="#">password?</a></span>
+        
+    </form>
+
+</div>
+
+
+

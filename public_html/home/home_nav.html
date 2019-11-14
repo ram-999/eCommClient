@@ -1,0 +1,52 @@
+ 
+<div class="home">
+    <toast></toast>
+    <br>
+    <tabset >
+        <tab heading="Home">
+            <br/> 
+            <!--
+            <div class="HD hostels" ng-click="hostel"> <span class="glyphicon glyphicon-user"> </span> HOSTELS</div>
+            <div class="HD Tanants" ng-click="hostel"> <span class="glyphicon glyphicon-user"> </span> TANANTS</div>
+            <div class="HD Payment" ng-click="hostel"> <span class="glyphicon glyphicon-user"> </span> PAYMENTS</div>
+            <div class="HD Maintanance" ng-click="hostel"> <span class="glyphicon glyphicon-user"> </span> MAINTAINANCE</div> 
+            -->
+
+            <img src="images/pg1.jpg" class="homeIcon"/>
+            <img src="images/pg2.jpg" class="homeIcon"/>
+            <img src="images/pg3.jpg" class="homeIcon"/>
+
+        </tab>
+        <tab heading="Notifications">
+
+            <div class="roomsInfo">
+                <span   ng-repeat="room in rooms">
+                    <div id="roomInfo"> 
+
+                        <table>
+                            <tr>
+                                <td rowspan="2">  <div class="roomNum">{{ room.roomNumber}} </div>  </td> 
+                                <td> <div class="roomType"> {{ room.roomType}}  </div>  </div>  </td> 
+                            </tr>
+                            <tr>
+                                <td>  <div class="roomDesc"> {{ room.description}} </div>   </td> 
+                            </tr>
+
+                        </table>  
+
+                    </div>
+                </span>
+            </div>  
+           <!-- <div  data-toggle="modal" data-target="#myModal" class="addRoomsIcon"><span class="glyphicon glyphicon-plus"> </span></div> 
+            --><div class="NoNotificationMessage"> Currently no notifications available... </div>
+        </tab>
+        <tab heading="Public">
+            <br>
+          
+            <textarea  class="publicVis" rows="14" cols="50"   placeholder="Eneter Public visibility with features of your hostel" ></textarea>
+
+            
+
+        </tab>
+    </tabset> 
+</div>

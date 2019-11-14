@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en" ng-app="myApp" id='ANJI_APP'>
+    <head>
+        <link rel="icon" href="images/back_light.svg" type="image/x-icon"/>
+        <link rel="shortcut icon" href="images/back_light.svg" type="image/x-icon"/>
+
+        <script src="lib/underscore-v1.8.3.js"></script>
+        <script src="lib/require.js"></script>
+
+        <link rel="stylesheet" href="css/bootstrap.min.css" >
+        <script src="lib/jquery.min.js"></script>
+        <script src="lib/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
+
+        <link href="css/styles.css" rel="stylesheet"> 
+        <link href="fonts/font-awesome-4.5.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+
+        <script src="lib/angular.min.js"></script>  
+        <script src="lib/angular-touch.js"></script>
+        <script src="lib/angular-resource.js"></script> 
+        <script src="lib/angular-route.js"></script>
+        <script src="lib/ui-bootstrap-tpls-0.11.0.min.js"></script>
+
+        <link rel="stylesheet" href="css/ngToast.min.css"> 
+
+
+        <script src="lib/angular-animate.js"></script> 
+        <script src="lib/angular-sanitize.min.js"></script>
+        <script src="lib/ngToast.min.js"></script>
+
+
+        <script src="lib/ngDatepicker.min.js"></script>
+
+
+
+        <script src="lib/ng-cordova_1.js"></script>
+
+
+
+        <script src="MainCtrl.js"></script> 
+
+        <script src="home/HomeCtrl.js"></script> 
+        <script src="cart/CartCtrl.js"></script>
+
+       
+        <script src="serviceHandler/eCommAPIService.js"></script>
+         <script src="serviceHandler/eCommRemoteController.js"></script>
+        
+
+        <script src="home/paths.js"></script> 
+        <script src="js/rest-services.js"></script>
+
+
+        <script src="lib/fusioncharts.js"></script>
+        <script src="lib/fusioncharts.charts.js"></script>
+        <script src="lib/angular-fusioncharts.min.js"></script> 
+
+        <style>
+            .section {
+                min-height:1000px;
+                overflow:'hidden';
+                position:'relative';
+                padding-top:80px;
+            }
+
+            .section:nth-child(even){
+                background-color: #ccc;
+            }
+        </style>
+    </head>
+
+    <body class="appBody" ng-controller="MainCtrl">  
+
+        <div class="mainHeaderImg"> 
+
+            <a href="#home">
+            <div class="TitleOftheApp"><span class="glyphicon glyphicon-user"></span>  Sample e-Commerce App</div>
+            <div class="SubTitleOftheApp">A Sample POC for e-Commerce App</div>
+            <div class="home-search"> <input class="search-input" placeholder="Seach all categories and items here..." type="text" ng-model="search"/> </div>
+
+            </a>
+
+            <div class="globalOptions">  
+                <a href="#cart"><div class="globalOption"> <span class="glyphicon glyphicon-shopping-cart"></span> Shopping Cart <sup><span class="badge">{{cartItmes.length}}</span> </sup></div> </a>
+            </div>
+
+
+        </div>
+        <div class="rootApp">  
+            <div class="mainView"> 
+                <div ng-view ng-class="slide"></div> 
+            </div> 
+
+            <div class="footerView">  </div>
+        </div> 
+
+
+        <div class="footer">
+            Powered by @Srans,
+            feedback us on help.ecommerce@srans.com
+        </div>
+    </body>
+</html>

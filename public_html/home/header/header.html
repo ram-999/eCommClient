@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#top-navbar">
+                <i class="fa fa-bars" aria-hidden="true"></i>
+            </button>
+            <span class="navbar-brand" id="headerName"> Hostal Management System</span>
+        </div>
+        <div class="collapse navbar-collapse" id="top-navbar">
+           <!--
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#home">New Hostel</a></li>
+                <li><a href="#about">New Tanant</a></li>
+                <li><a href="#products">Payments</a></li>
+                <li><a href="#contact">Maintainance</a></li>
+                <li><a href="#contact">AboutUs</a></li>
+                <li><a href="#contact">ContactUs</a></li>
+                <li><a href="#contact">Settings</a></li>
+                <li><a href="#contact">Logout</a></li>
+            </ul>
+            -->
+            <ul class="nav navbar-nav navbar-right" ng-repeat="tmpPath in pathObject">
+                <li><a href="#{{tmpPath.path}}">{{tmpPath.displayName}}</a>  </li>
+            </ul>
+        </div>
+    </div>
+</nav>
