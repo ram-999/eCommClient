@@ -1,12 +1,19 @@
 # eCommClient
 eCommClient AngularJs App
 
-# Clone the APP
+# Quick Links
 
-Run following command 
+#### Pre-Requisite:
+You need to intsall docker setup on your machine to build docker images and containers
 
+#### STEPS
 ```
-ng serve
+cd <ProjectHome>
+docker build --no-cache -t ecomm-client .
+docker stop ecomm-client-container
+docker rm ecomm-client-container
+docker run -p 4200:80 -d -it  --name ecomm-client-container ecomm-client
+
 ```
 
 ## Commads helpful
