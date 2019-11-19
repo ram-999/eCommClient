@@ -1,15 +1,9 @@
 'use strict';
 var myPgApp = angular.module('myApp', [
-    'ngToast',
-    'ngTouch',
+    
     'ngRoute',
-    'ngAnimate',
     'myApp.eCommAPIService',
-    'myApp.paths',
-    'ui.bootstrap',
-    'ngDatepicker',
-    'ng-fusioncharts',
-    'ngCordova'
+    'myApp.eCommRemoteController'
 ])
         .config(['$routeProvider', function ($routeProvider) {
 
@@ -21,8 +15,8 @@ var myPgApp = angular.module('myApp', [
                 //$routeProvider.when('/settings/notifications', {templateUrl: 'settings/settings-notifications.html', controller: 'SettingsCtrl'});
                  
             }])
-        .controller('MainCtrl', ['$scope', '$rootScope', '$window', '$location', 'PathsFactory', 'ngToast',
-            function ($scope, $rootScope, $window, $location, PathsFactory, ngToast) {
+        .controller('MainCtrl', ['$scope', '$rootScope', '$window', '$location', 
+            function ($scope, $rootScope, $window, $location) {
                 $scope.slide = '';
                 $rootScope.headerClickPageExists = false;
                 $rootScope.months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
