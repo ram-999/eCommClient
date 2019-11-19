@@ -34,7 +34,6 @@ div[class*=optionsDivision]{
 
 }
 .options-icon-at-home{
-    //width: 42px;
 
     width: 15px;
     height: 17px;
@@ -1123,7 +1122,7 @@ ul {
 
 
 .progressShow{
-    //text-align: -webkit-center;
+    
     padding-left: 73px;
 
 }
@@ -1158,7 +1157,7 @@ ul {
 }
 .step{
     width: 100%;  
-    //border: 1px solid black;
+    
 }
 .usercard{
     width: 100px;
@@ -1176,12 +1175,10 @@ div[class*=nodeStatus]{
     display : none;
     width: 63%;
     height: 85px;
-    /* border: 2px solid gainsboro; */
     position: absolute;
     margin-left: 111px;
     top: -7px;
     padding: 10px;
-    /* box-sizing:  inherit; */ 
     z-index: 1;
     background-color:  darkgray;
 }
@@ -1191,9 +1188,7 @@ div[class*=nodeStatus]{
     left: -66px;
     width: 68px;
     height: 34px;
-    /* border:  1px solid antiquewhite; */
     background-color:  darkgray;
-    /* z-index: -1; */
 }
 .details{
      position:  absolute;
@@ -1236,7 +1231,7 @@ div[class*=nodeStatus]{
 }
 
 .home-search{
-    /* padding: 0px; */
+   
     position: fixed;
     top: 39px;
     left: 31rem;
