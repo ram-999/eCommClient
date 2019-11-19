@@ -51,29 +51,7 @@ var myPgApp = angular.module('myApp', [
                     $rootScope.hoselId = 10;
 
                 };
-                $rootScope.home = function () {
-                    $scope.slide = 'slide-right';
-                    $window.history.back();
-                    $rootScope.homeHeaderShow = true;
-                };
-
-                $rootScope.toastMsg = function (msg) {
-
-                    //ngToast.create('A new Toast Message ..'); 
-                    // create a toast with settings:
-                    ngToast.create({
-                        className: 'ng-toast.ng-toast--top',
-                        content: '<div href="#" class="">' + msg + '</div>'
-                    });
-
-                    setTimeout(function () {
-                        // to clear a toast:
-                        ngToast.dismiss();
-                    }, 3);
-
-                }; 
-
-
+               
                 $rootScope.init = $rootScope.initVariables();
 
             }]);
